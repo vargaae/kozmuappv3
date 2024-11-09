@@ -1,0 +1,4 @@
+Utility,Date,Previous Value,Current Value,Consumption,Rate,Bill Amount,Last Modified
+MVM Electricity,2024-11-07,0,100,100,100.0,10000.0,2024-11-09 02:52:52
+MVM Electricity,2024-11-09,100,200,100,100.0,10000.0,2024-11-09 02:53:11
+MVM Electricity,2024-11-09,200,1000,800,100.0,80000.0,2024-11-09 02:57:57
