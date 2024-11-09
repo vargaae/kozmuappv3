@@ -4,23 +4,21 @@
 <br>
   <div align="center">
     <img src="https://img.shields.io/badge/-Python-black?style=for-the-badge&logoColor=white&logo=python&color=61DAFB" alt="Python" />
+</div>
 
 # UTILITY ( Közmű ) APPLICATION v3
 
-This project demonstrates a fully functional Python application with a GUI, data persistence, and robust error handling. 
+This project demonstrates a fully functional Python application with a GUI, data persistence, and robust error handling.
 A robust Python program that provides a graphical user interface (GUI) using tkinter, enabling the user to manage and analyze utility values. The program offers functionality to add, edit, and delete dictation values, calculates consumption and bill amounts, and saves the data in a CSV file. It includes error handling to ensure the program can handle unexpected inputs or file errors.
 
 ## 🚀IDEA - PROMPT
 
 - Create a working python program with error handling for displaying and analyzing utility values ​​with visual display and saving to a CSV file. Sum up the dictation values on every save and modification ​​of the utilities in m3, kWh, their sums, the difference between the two most recent dictation values, i.e. the consumption (consumption value is updating on every savings or modifyings. for consumption read the previous dictation value from the last saved dictation by the dictation date, if there is a saved dictation for the given utility, if there is none, then to 0 calculate the consumption in comparison), dictation dates (the dictation date can be selected from the calendar), the last save date (save a time stamp, but for later changes save the date of the last change), display the amount of bills arising from the consumption calculated from these dictations in HUF, for which the m3 /kWh price can be entered (initial value HUF 100/m3 - enter this as the default value, so if you do not enter another value, then calculate with this) and you can enter the new dictations and the amount of the invoices, these will be listed and the saved data can be edit, modify, delete and save. It should include MVM Gas, MVM Electricity, Vízművek Water dictation, we can select these from a menu when dictating the values. Display MVM Gas, MVM Electricity, Vízművek Water dictations in separate section rows.
 
-+
+- (+ use concat instead of append function)
 
-- use concat instead of append function
-
-- kozmu.py > this version is generated with ChatGPT ( GPT 4.0 )
+- main.py > this version is generated with ChatGPT ( GPT 4.0 )
 - kozmu-copilot.py > this version is generated with Github Copilot
-
 
 ## Key Features of the Program
 
@@ -79,6 +77,7 @@ You need to install the pandas and tkcalendar libraries if you haven't already:
 pip install pandas tkcalendar
 
 ```
+
 **How to Run the Program**
 Make sure Python is installed on your system.
 Install the required libraries using the command above.
@@ -94,7 +93,7 @@ Use the interface to manage utility dictation values, including adding, editing,
 This project serves as a good portfolio project for Python developers, demonstrating skills in GUI development, data management, and CSV file handling.
 
 ```bash
-python kozmu_diktalas_listazas.py
+python main.py
 
 ```
 
